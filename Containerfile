@@ -1,4 +1,4 @@
-FROM docker.io/archlinux/archlinux:latest AS builder
+FROM docker.io/cachyos/cachyos:latest AS builder
 
 
 ENV DRACUT_NO_XATTR=1
